@@ -1,0 +1,115 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    color: #f5f5f5;
+}
+.header__image-jpg {
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+}
+.who-we-are__contaner {
+    background: rgba(93, 98, 181, 1) url(../img/who_we_are/Blob_2.svg) -14.17px 253.32px no-repeat;
+    max-width: 1020px;
+    max-height: 700px;
+    border-radius: 40px;
+    padding-top: 100px;
+    padding-left: 87px;
+    padding-bottom: 354px;
+    position: relative;
+    margin: -80px auto 200px;
+}
+.who-we-are__content {
+    margin-bottom: 54px;
+}
+.who-we-are__content::before {
+    content: "";
+    width: 201px;
+    height: 317px;
+    margin: -209px 0px 0px 807.17px;
+    display: block;
+    background: url("../img/who_we_are/Stylize_Circles.svg") no-repeat;
+} 
+.content__sub-title {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5;
+    line-height: 2;
+    padding-left: 33px;
+    background: url(../img/who_we_are/Overline_Mark.svg) no-repeat;
+    margin-bottom: 33px;
+    margin-top: -109px;
+}
+.content__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #ffffff;
+    max-width: 583px;
+    margin-bottom: 36px;
+}
+.content__text {
+    letter-spacing: 0.15;
+    max-width: 846px;
+}
+.who-we-are__picture {
+    max-width: 846px;
+}
+.who-we-are__image-jpg {
+    border-radius: 40px;
+}
+.nemo__contaner {
+    max-width: 1440px;
+    background-image: url("../img/nemo/Blob-2.svg"), url("../img/nemo/Stylize_Circles_2.svg"), url("../img/nemo/Line_1.svg");
+    background-color: #29C3BE;
+    background-repeat: no-repeat;
+    background-position: 0px 0px, 0px 122px, 750px 0px;
+    background-size: auto, auto, auto;
+    margin: 0 auto 100px;
+    position: relative;
+    padding-bottom: 41px;
+}
+.nemo__text {
+    max-width: 411px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.16;
+    margin-left: 819px;
+    margin-bottom: 45px;
+    padding-top: 112px;
+}
+.botton__link {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.15;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    min-width: 210px;
+    display: inline-block;
+    padding: 9px 0px;
+    background-color: #F2726F;
+    border-radius: 7px;
+    margin-left: 819px;
+}
+.nemo__pup {
+    position: absolute;
+    top: 44px;
+    left: 3px;
+    max-width: 744px;
+ }
+.nemo__ball {
+    position: relative;
+    left: 1262px;
+    bottom: 210px;
+}
