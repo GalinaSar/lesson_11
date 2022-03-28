@@ -41,10 +41,10 @@ body {
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 2.5;
+    letter-spacing: 2.5px;
     line-height: 2;
     padding-left: 33px;
-    background: url(../img/who_we_are/Overline_Mark.svg) no-repeat;
+    background: url(../img/who_we_are/Overline_Mark.svg) 0 -3px no-repeat;
     margin-bottom: 33px;
     margin-top: -109px;
 }
@@ -57,7 +57,7 @@ body {
     margin-bottom: 36px;
 }
 .content__text {
-    letter-spacing: 0.15;
+    letter-spacing: 0.15px;
     max-width: 846px;
 }
 .who-we-are__picture {
@@ -91,7 +91,7 @@ body {
     font-size: 12px;
     font-weight: 700;
     line-height: 2;
-    letter-spacing: 0.15;
+    letter-spacing: 0.15px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
